@@ -32,7 +32,7 @@ def start ():
 				os.path.join(parent_dir,default_filename),
 				os.path.join(parent_dir,new_filename)
 		])
-		print('Converted !! \ n Do you want to delete the mp4 format?')
+		print('Converted !! \n Do you want to delete the mp4 format?')
 		sce1 = input()
 		if sce1 == 'yes':
 			os.remove(default_filename)
