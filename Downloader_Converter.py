@@ -42,10 +42,10 @@ def start ():
 	print('download another file?')
 	scelta = input()
 	if scelta == "yes" :
-		again = start()
+		start()
 	else :
 		exit("bye-bye")
 
 		
 			
-begin = start()
+start()
